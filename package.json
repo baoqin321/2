@@ -1,0 +1,13 @@
+{
+  "name": "watermark-remover-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "dev": "npm --workspace client run dev -- --host 0.0.0.0",
+    "build": "npm --workspace client run build",
+    "lint": "npm --workspace client run lint"
+  }
+}

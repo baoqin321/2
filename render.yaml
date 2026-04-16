@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: baoqin-watermark-remover
+    runtime: docker
+    plan: starter
+    autoDeploy: true
+    healthCheckPath: /api/health

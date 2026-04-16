@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# build output
+client/dist/
+client/dist-ssr/
+server/dist/
+
+# runtime/debug artifacts
+runtime/
+*.log
+logs/
+
+# Python cache
+__pycache__/
+server/scripts/__pycache__/
+*.pyc
+
+# local env/editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
